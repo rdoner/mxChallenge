@@ -1,0 +1,21 @@
+{
+  "name": "mxchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+    "scripts": {
+    "search": "npx ts-node src/index.ts --mode 1",
+    "history": "npx ts-node src/index.ts --mode 2"
+  },
+  "author": "Ryan Doner",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "playwright": "^1.41.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.3",
+    "@types/node": "^20.11.16"
+  }
+}
